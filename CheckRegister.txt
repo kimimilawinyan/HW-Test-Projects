@@ -9,39 +9,57 @@
  **--*--**--*--**--*--**--*--**--*--**--*--**--*--**
  *
  */
+
+import junit.framework.TestCase; 
  
+ public class CheckRegister {
 
 /*Simplified Model*/
 
-String[][] checkRegister = { { "001", "Big Teeth Dentistry", "$100.00", "Cleaning" }, { "002", "Big Phone Company", "$150.00", "Monthly Bill" }, { "003", "MSU Denver", "$2400.00", "Summer Tuition"}, { "004", "Big Money Bank", "$30.00", "Overdraft Fee" }  {"005", "Xcel Energy", "$50.00", "Monthly Bill"}};
+String[][] checkRegister = { 
+	{ "001", "Big Teeth Dentistry", "$100.00", "Cleaning" }, 
+	{ "002", "Big Phone Company", "$150.00", "Monthly Bill" }, 
+	{ "003", "MSU Denver", "$2400.00", "Summer Tuition"}, 
+	{ "004", "Big Money Bank", "$30.00", "Overdraft Fee" }  
+	{"005", "Xcel Energy", "$50.00", "Monthly Bill"}
+	};
+
+}
 
 
+public class CheckRegister2 {
 /*MultiDimensional Array replicates the one above.*/
 
-String[][] checkReg = new String[5][4];
-/*Check One-Five*/
-checkReg[0][0] = ""001";
-checkReg[0][1] = "Big Teeth Dentistry";
-checkReg[0][2] = "$100.00";
-checkReg[0][3] = "Cleaning"; 
+	String[][] checkReg = new String[5][4] {
+	/*Check One-Five*/
+	checkReg[0][0] = ""001";
+	checkReg[0][1] = "Big Teeth Dentistry";
+	checkReg[0][2] = "$100.00";
+	checkReg[0][3] = "Cleaning"; 
 
-checkReg[1][0] = "002";
-checkReg[1][1] = "Big Phone Company";
-checkReg[1][2] = "$150.00";
-checkReg[1][3] = "Monthly Bill";
+	checkReg[1][0] = "002";
+	checkReg[1][1] = "Big Phone Company";
+	checkReg[1][2] = "$150.00";
+	checkReg[1][3] = "Monthly Bill";
 
-checkReg[2][0] = "003";
-checkReg[2][1] = "MSU Denver";
-checkReg[2][2] = "$2400.00";
-checkReg[2][3] = "Summer Tuition";
+	checkReg[2][0] = "003";
+	checkReg[2][1] = "MSU Denver";
+	checkReg[2][2] = "$2400.00";
+	checkReg[2][3] = "Summer Tuition";
 
-checkReg[3][0] = "004";
-checkReg[3][1] = "Big Money Bank";
-checkReg[3][2] = "$30.00";
-checkReg[3][3] = "Overdraft Fee";
+	checkReg[3][0] = "004";
+	checkReg[3][1] = "Big Money Bank";
+	checkReg[3][2] = "$30.00";
+	checkReg[3][3] = "Overdraft Fee";
 
-checkReg[4][0] = "005";
-checkReg[4][1] = "Xcel Energy";
-checkReg[4][2] = "$50.00";
-checkReg[4][3] = "Monthly Bill";
+	checkReg[4][0] = "005";
+	checkReg[4][1] = "Xcel Energy";
+	checkReg[4][2] = "$50.00";
+	checkReg[4][3] = "Monthly Bill";
+	};
+}
+
+	
+for (String [0][1] : checkReg)
+    System.out.println([0][1]);
 
